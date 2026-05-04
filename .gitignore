@@ -1,0 +1,5 @@
+echo "*.pyc" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "training_data.json" >> .gitignore # если не хотите хранить данные в репозитории
+git add .
+git commit -m "Initial commit of Training Planner app"
